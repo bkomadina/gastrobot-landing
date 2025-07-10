@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GastroBot - AI Cooking Assistant</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Use the Inter font family defined in the head */
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #fdfbf7; /* A warm, off-white background */
+      }
+      /* Simple animation for the header */
+      .fade-in-down {
+        animation: fadeInDown 0.8s ease-out forwards;
+        opacity: 0;
+      }
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="text-gray-800">
+    <div class="container mx-auto px-6 py-12 max-w-5xl">
+      <!-- Header: Logo and App Name -->
+      <header class="text-center fade-in-down">
+        <img
+          src="https://i.imgur.com/MyTE2FM.jpeg"
+          alt="GastroBot Logo"
+          class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full shadow-lg mb-4 border-4 border-white"
+        />
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900">GastroBot</h1>
+        <p class="text-lg md:text-xl text-gray-600 mt-2">
+          From random ingredients to remarkable meals 🍳🤖🥢
+        </p>
+      </header>
+
+      <main class="mt-12 text-center">
+        <!-- Download Button Section -->
+        <section class="mb-16">
+          <h2 class="text-2xl font-bold mb-4">Get Started</h2>
+          <p class="mx-auto text-gray-600 mb-6">
+            Ready to transform your pantry's contents into delicious dishes?
+            Download the official app for Android.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1dohg8A5dH06q2s9F-MnJwr1j9p5_gMz9"
+            class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-md hover:shadow-lg transition-transform transform hover:scale-105"
+            download
+          >
+            Download for Android (.apk)
+          </a>
+        </section>
+
+        <!-- Installation Guide Section -->
+        <section
+          class="bg-white p-8 rounded-xl shadow-md border border-gray-200"
+        >
+          <h3 class="text-2xl font-bold mb-4 text-gray-900">How to Install</h3>
+          <p class="max-w-2xl mx-auto text-gray-600 mb-8">
+            Because GastroBot is not on the Google Play Store, you'll need to
+            enable one setting to install it. It's simple and safe!
+          </p>
+          <div class="grid md:grid-cols-3 gap-6 text-left">
+            <!-- Step 1 -->
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <div class="font-bold text-lg mb-2">
+                <span
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 inline-flex items-center justify-center mr-2"
+                  >1</span
+                >Download the File
+              </div>
+              <p class="text-gray-600">
+                Tap the download button above. Your browser will save the
+                `GastroBot.apk` file to your phone.
+              </p>
+            </div>
+            <!-- Step 2 -->
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <div class="font-bold text-lg mb-2">
+                <span
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 inline-flex items-center justify-center mr-2"
+                  >2</span
+                >Allow Unknown Apps
+              </div>
+              <p class="text-gray-600">
+                Open the downloaded file. Your phone will prompt you for
+                permission to install from your browser. Tap "Settings" and
+                enable it.
+              </p>
+            </div>
+            <!-- Step 3 -->
+            <div class="bg-gray-50 p-6 rounded-lg">
+              <div class="font-bold text-lg mb-2">
+                <span
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 inline-flex items-center justify-center mr-2"
+                  >3</span
+                >Install & Enjoy!
+              </div>
+              <p class="text-gray-600">
+                Go back, tap "Install," and you're all set! Open GastroBot and
+                start creating amazing recipes.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="text-center mt-16 text-gray-500">
+        <p>&copy; 2025 GastroBot. All rights reserved.</p>
+        <div class="mt-4">
+          <!-- IMPORTANT: Replace with your actual TinyURL link -->
+          <a
+            href="https://tinyurl.com/3c82zjbm"
+            class="hover:text-orange-500 underline mx-2"
+            >Policies & Terms</a
+          >
+          <span class="mx-1">&middot;</span>
+          <a
+            href="mailto:gastrobot6@gmail.com"
+            class="hover:text-orange-500 underline mx-2"
+            >Contact Support</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
